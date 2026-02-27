@@ -6,39 +6,42 @@ Computational Chemist | Atomistic Modeling | Heterogeneous Catalysis | Physics-I
 
 ## Research Focus
 
-I develop predictive modeling frameworks that translate electronic structure calculations into catalytic performance across operating conditions.
+I develop predictive modeling frameworks that connect electronic structure calculations to catalytic performance under realistic operating conditions.
 
 Electronic Structure → Surface Reactivity → Microkinetics → Data-Driven Acceleration
+
+My work integrates periodic DFT, mechanistic modeling, and data-driven methods to understand and optimize heterogeneous catalytic systems.
 
 ---
 
 ## Featured Projects
 
 ### 1. Periodic DFT: CO Adsorption on Pt(111)
-- Plane-wave DFT using GPAW + ASE
-- Surface slab modeling and adsorption energetics
-- Site-dependent binding comparison (bridge vs on-top)
+	•	Constructed and relaxed periodic Pt(111) slabs using GPAW + ASE
+	•	Computed site-dependent adsorption energetics (on-top vs bridge)
+	•	Quantified binding preference (bridge favored by 0.12 eV)
+	•	Built a reproducible surface modeling workflow
 
 🔗 Repository: [cat-adsorption-dft](https://github.com/ankita05puri/cat-adsorption-dft)
 
 ---
 
 ### 2. Microkinetic Modeling of CO Oxidation
-- Mean-field microkinetic framework
-- ODE-based surface coverage evolution
-- Regime-dependent catalytic performance maps
-- Apparent activation energy extraction
-- Degree-of-rate-control analysis
+	•	Developed a mean-field microkinetic framework for heterogeneous surface reactions
+	•	Implemented ODE-based surface coverage evolution to steady state
+	•	Generated regime-dependent catalytic performance maps
+	•	Extracted apparent activation energies from Arrhenius analysis
+	•	Performed degree-of-rate-control and barrier sensitivity analysis
 
 🔗 Repository: [cat-microkinetics](https://github.com/ankita05puri/cat-microkinetics)
 
 ---
 
-### 3. Physics-Informed Machine Learning
-- Generated structured kinetic datasets
-- Built regression model to predict steady-state TOF
-- Evaluated prediction error across operating regimes
-- Integrated physical structure to improve model stability
+### 3. Physics-Informed Machine Learning for Catalysis
+	•	Generated structured datasets from microkinetic simulations across temperature and CO partial pressure
+	•	Built regression models to predict steady-state turnover frequency
+	•	Evaluated predictive performance across kinetic regimes
+	•	Incorporated physical constraints to improve model stability
 
 (Repository coming soon)
 
@@ -46,16 +49,16 @@ Electronic Structure → Surface Reactivity → Microkinetics → Data-Driven Ac
 
 ## Technical Skills
 
-**Electronic Structure:** Periodic DFT, Surface modeling, Adsorption energetics  
-**Catalysis & Kinetics:** Microkinetic modeling, Arrhenius analysis, DRC  
-**Machine Learning:** Regression modeling, Physics-informed ML  
+**Electronic Structure:**  Periodic DFT (GPAW), surface slab modeling, adsorption energetics
+**Catalysis & Kinetics:** Microkinetic modeling, Arrhenius analysis, degree-of-rate-control (DRC)
+**Machine Learning:** Regression modeling, physics-informed ML
 **Programming:** Python, NumPy, SciPy, Matplotlib  
 
 ---
 
 ## Current Direction
 
-Integrating machine-learned interatomic potentials with microkinetic modeling for scalable catalyst design.
+Expanding toward scalable catalyst performance modeling through physics-guided ML and multiscale integration of DFT and microkinetics.
 
 ---
 
