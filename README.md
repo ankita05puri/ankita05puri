@@ -57,7 +57,7 @@ My work integrates periodic DFT, microkinetic modeling, and machine learning to 
 
 ## Current Direction
 
-Expanding into machine-learned interatomic potentials and scalable catalyst performance modeling.
+Integrating machine-learned interatomic potentials with microkinetic modeling for scalable catalyst design.
 
 ---
 
