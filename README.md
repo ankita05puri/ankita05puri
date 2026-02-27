@@ -6,11 +6,9 @@ Computational Chemist | Atomistic Modeling | Heterogeneous Catalysis | Physics-I
 
 ## Research Focus
 
-I build predictive atomistic-to-kinetic modeling frameworks that connect:
+I develop predictive modeling frameworks that translate electronic structure calculations into catalytic performance across operating conditions.
 
 Electronic Structure → Surface Reactivity → Microkinetics → Data-Driven Acceleration
-
-My work integrates periodic DFT, microkinetic modeling, and machine learning to study catalytic systems.
 
 ---
 
