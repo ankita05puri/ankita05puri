@@ -63,10 +63,10 @@ Physics-Informed ML Surrogate
 
 ## Technical Skills
 
-**Electronic Structure & Surface Science:** Periodic DFT (GPAW), surface slab modeling, adsorption energetics, surface site analysis
-**Catalysis & Reaction Modeling:** Microkinetic modeling, Arrhenius kinetics, surface coverage dynamics, degree-of-rate-control (DRC)
-**Machine Learning for Physical Systems:** Physics-informed ML, regression models, surrogate modeling, regime generalization analysis
-**Scientific Programming:** Python, NumPy, SciPy, Matplotlib, reproducible simulation workflows
+	•	Electronic Structure & Surface Science: Periodic DFT (GPAW), surface slab modeling, adsorption energetics, surface site analysis
+	•	Catalysis & Reaction Modeling: Microkinetic modeling, Arrhenius kinetics, surface coverage dynamics, degree-of-rate-control (DRC)
+	•	Machine Learning for Physical Systems: Physics-informed ML, regression models, surrogate modeling, regime generalization analysis
+	•	Scientific Programming: Python, NumPy, SciPy, Matplotlib, reproducible simulation workflows
 
 ## Current Direction
 
