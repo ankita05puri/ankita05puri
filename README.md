@@ -24,14 +24,15 @@ Physics-Informed ML Surrogate
 
 ## Featured Projects
 
-### 1. Periodic DFT Surface Modeling
+### 1. Periodic DFT Modeling of Surface Reactivity
 	
 	Pt(111) Surface and Adsorption Energetics
-	•	Constructed periodic Pt(111) surface slabs using ASE with vacuum separation and bulk constraints
-	•	Relaxed slab geometries using GPAW (PBE, plane-wave basis) to obtain stable surface structures
-	•	Investigated adsorption configurations for CO and O** across surface sites (top, bridge, fcc, hcp)
-	•	Computed site-dependent adsorption energies to determine preferred binding geometries
-	•	Developed reproducible scripts for surface setup, adsorbate placement, and geometry optimization
+	• Constructed periodic Pt(111) slab models using ASE with vacuum separation and constrained bulk layers
+	• Performed surface and adsorption geometry optimizations using GPAW (PBE, plane-wave basis)
+	• Investigated adsorption configurations for CO* and O* across surface sites
+	• Computed adsorption energetics to identify preferred binding geometries and site stability
+	• Implemented reproducible Python workflows for surface construction, adsorbate placement, and geometry relaxation
+	• Prepared co-adsorption configurations and reaction pathway setup for CO oxidation studies
 
 🔗 Repository: [cat-adsorption-dft](https://github.com/ankita05puri/cat-adsorption-dft)
 
