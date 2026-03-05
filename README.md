@@ -8,34 +8,39 @@ I build computational frameworks that connect electronic structure calculations 
 📧 ankit05puri@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/ankita-puri-phd)
 
----
-
 ### Modeling pipeline
 
-DFT Surface Modeling → Adsorption Energetics → Microkinetic Simulation → Catalytic Performance Maps → Physics-Informed ML Surrogate
-
----
+``` bash
+DFT Surface Modeling
+        ↓
+Adsorption Energetics
+        ↓
+Microkinetic Simulation
+        ↓
+Catalytic Performance Maps
+        ↓
+Physics-Informed ML Surrogate
+```
 
 ## Featured Projects
 
-### 1. Periodic DFT: CO Adsorption on Pt(111)
-
+### 1. Periodic DFT Surface Modeling
+	
 	Pt(111) Surface and Adsorption Energetics
 	•	Constructed periodic Pt(111) surface slabs using ASE with vacuum separation and bulk constraints
 	•	Relaxed slab geometries using GPAW (PBE, plane-wave basis) to obtain stable surface structures
 	•	Investigated adsorption configurations for CO and O** across surface sites (top, bridge, fcc, hcp)
 	•	Computed site-dependent adsorption energies to determine preferred binding geometries
-	•	Built reproducible scripts for surface setup, adsorbate placement, and geometry optimization
+	•	Developed reproducible scripts for surface setup, adsorbate placement, and geometry optimization
 
 🔗 Repository: [cat-adsorption-dft](https://github.com/ankita05puri/cat-adsorption-dft)
 
----
-
 ### 2. Microkinetic Modeling of CO Oxidation
 
+	Developed a physics-based microkinetic framework to translate surface reaction energetics into catalytic performance across operating conditions.
 	•	Implemented a mean-field microkinetic model for heterogeneous CO oxidation on Pt(111)
 	•	Constructed a reaction network including CO adsorption, O₂ dissociation, surface reaction, and CO₂ desorption
-	•	Solved stiff ODE systems (BDF integration) to simulate surface coverage dynamics and reach steady-state catalytic flux
+	•	Solved stiff ODE systems (BDF integration) to simulate surface coverage evolution and reach steady-state catalytic flux
 	•	Generated TOF maps across temperature and CO partial pressure, revealing oxygen-activated, balanced, and CO-poisoned regimes
 	•	Extracted apparent activation energies from Arrhenius analysis of steady-state catalytic rates
 	•	Performed barrier perturbation and degree-of-rate-control (DRC) analysis to identify regime-dependent rate-controlling steps
@@ -43,21 +48,17 @@ DFT Surface Modeling → Adsorption Energetics → Microkinetic Simulation → C
 
 🔗 Repository: [cat-microkinetics](https://github.com/ankita05puri/cat-microkinetics)
 
----
-
 ### 3. Physics-Informed Machine Learning for Catalysis
 
-	Built a machine learning surrogate model to approximate catalytic performance predicted by the microkinetic simulations.
+	Developed a machine learning surrogate to accelerate microkinetic evaluation of catalytic performance across operating conditions.
 	•	Generated structured datasets from microkinetic simulations across temperature and CO partial pressure
-	•	Engineered physics-informed features (1/T, log P_CO) reflecting Arrhenius scaling
-	•	Trained regression models to predict steady-state turnover frequency (TOF)
-	•	Evaluated interpolation performance within known kinetic regimes
-	•	Investigated generalization limits across regime transitions (e.g., CO-poisoned conditions)
-	•	Analyzed how surrogate accuracy depends on coverage of the kinetic state space
+	•	Engineered physics-informed features including inverse temperature (1/T) and log partial pressure
+	•	Trained regression models to predict steady-state turnover frequency (TOF) in log space
+	•	Achieved high predictive accuracy for interpolation within trained kinetic regimes
+	•	Analyzed generalization behavior under P_CO holdout, revealing systematic error growth in the CO-poisoned regime
+	•	Demonstrated how surrogate models approximate learned kinetic manifolds but struggle across regime transitions
 
 🔗 Repository: [cat-microkinetics](https://github.com/ankita05puri/cat-microkinetics)
-
----
 
 ## Technical Skills
 
@@ -65,8 +66,6 @@ DFT Surface Modeling → Adsorption Energetics → Microkinetic Simulation → C
 **Catalysis & Reaction Modeling:** Microkinetic modeling, Arrhenius kinetics, surface coverage dynamics, degree-of-rate-control (DRC)
 **Machine Learning for Physical Systems:** Physics-informed ML, regression models, surrogate modeling, regime generalization analysis
 **Scientific Programming:** Python, NumPy, SciPy, Matplotlib, reproducible simulation workflows
-
----
 
 ## Current Direction
 
