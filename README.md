@@ -59,7 +59,7 @@ Physics-Informed ML Surrogate
 	•	Analyzed generalization behavior under P_CO holdout, revealing systematic error growth in the CO-poisoned regime
 	•	Demonstrated how surrogate models approximate learned kinetic manifolds but struggle across regime transitions
 
-🔗 Repository: [cat-microkinetics](https://github.com/ankita05puri/cat-microkinetics)
+🔗 Repository: [cat-microkinetics](https://github.com/ankita05puri/cat-ml-surrogate) 
 
 ## Technical Skills
 
