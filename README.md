@@ -1,12 +1,14 @@
 # Ankita Puri
 
-Computational Materials Scientist | Heterogeneous Catalysis | Atomistic Modeling | Physics-Informed Machine Learning
+Computational Materials Scientist 
+Heterogeneous Catalysis | Atomistic Modeling | Physics-Informed ML
 
-I develop computational frameworks that connect electronic structure calculations to catalytic performance under realistic operating conditions
+I build computational frameworks that translate electronic-structure calculations into predictive catalytic performance.
 
 📍 Portland, OR  
 📧 ankit05puri@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/ankita-puri-phd)
+🔗 [Portfolio] (predict-catalysis-lab.lovable.app)
 
 ### Modeling pipeline
 
