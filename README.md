@@ -59,7 +59,7 @@ Physics-Informed ML Surrogate
 	•	Evaluated generalization under CO pressure holdout conditions
 	•	Demonstrated how surrogate models approximate learned kinetic manifolds but degrade across regime transitions
 
-🔗 Repository: [cat-microkinetics](https://github.com/ankita05puri/cat-ml-surrogate) 
+🔗 Repository: [cat-ml-surrogate](https://github.com/ankita05puri/cat-ml-surrogate) 
 
 ## Technical Skills
 
